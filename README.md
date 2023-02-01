@@ -1,6 +1,6 @@
 # udev_rules
 
-udevルールリスト（permissionで777しなくてもいいようにするためのスクリプト）
+udevルールリスト（777しなくてもいいようにするためのスクリプト）
 
 ```bash
 declare -a StringArray=("100-m5devices.rules" "101-webcams.rules")
