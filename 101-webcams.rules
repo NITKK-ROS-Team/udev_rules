@@ -1,0 +1,12 @@
+# webcam
+# C270
+KERNEL=="video*", SUBSYSTEM=="video4linux", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="0825", ATTR{index}=="0", SYMLINK+="webcam%n"
+# C920
+KERNEL=="video*", SUBSYSTEM=="video4linux", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="082d", ATTR{index}=="0", SYMLINK+="webcam%n"
+# iBUFFALO
+KERNEL=="video*", SUBSYSTEM=="video4linux", ATTRS{idVendor}=="0411", ATTRS{idProduct}=="0263", ATTR{index}=="0", SYMLINK+="webcam%n"
+# SANWA 4k camera
+KERNEL=="video*", SUBSYSTEM=="video4linux", ATTRS{idVendor}=="1bcf", ATTRS{idProduct}=="0b26", ATTR{index}=="0", SYMLINK+="webcam%n"
+
+# ZED STEREO
+KERNEL=="video*", SUBSYSTEM=="video4linux", ATTRS{idVendor}=="2b03", ATTRS{idProduct}=="f780", ATTR{index}=="0", SYMLINK+="zed%n"
