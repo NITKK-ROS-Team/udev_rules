@@ -2,6 +2,16 @@
 
 udevルールリスト（777しなくてもいいようにするためのスクリプト）
 
+<br>
+
+実行前にsudoをパスワードなしに実行できるようにする。
+
+```bash
+sudo echo ""
+```
+
+以下をコピペ
+
 ```bash
 declare -a StringArray=("100-m5devices.rules" "101-webcams.rules")
 
